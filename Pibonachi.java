@@ -1,7 +1,7 @@
 package practice;
 
 public class Pibonachi {
-
+  //피보나치수열 10번쨰 숫자까지 구하기
 	public static void main(String[] args) {
 		//피보나치 첫 두 숫자는 1,1로 정한다.
 		int num=1;
