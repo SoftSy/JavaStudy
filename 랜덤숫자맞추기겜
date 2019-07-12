@@ -25,6 +25,7 @@ public class test01 {
 			}
 			else {
 				System.out.println("맞췄습니다, 횟수는 "+count+"번 입니다.");
+				break;
 			}
 		} while(true);
 	}
