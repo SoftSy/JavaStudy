@@ -11,17 +11,17 @@ public class MaxMin {
 		int j = 1;
 		
 		for(int i=0; i<num.length; i++){
-			   num[i] = scanner.nextInt(); //ÀÔ·Â¹ÞÀº ¼ö¸¦ ¹è¿­¿¡ ÀúÀå
-			   System.out.println((i+1) + "¹øÂ° ¼ö: " + num[i]); 
-			   //ÀÔ·Â¹ÞÀº ¼ö°¡ ¸î ¹øÂ°¿¡ ÀúÀåµÇ¾ú´ÂÁö Ãâ·Â
-		System.out.println("³Ñ¹ö¸Æ½º"+num[max]);
+			   num[i] = scanner.nextInt(); //ìž…ë ¥ë°›ì€ ìˆ˜ë¥¼ ë°°ì—´ì— ì €ìž¥
+			   System.out.println((i+1) + "ë²ˆì§¸ ìˆ˜: " + num[i]); 
+			   //ìž…ë ¥ë°›ì€ ìˆ˜ê°€ ëª‡ ë²ˆì§¸ì— ì €ìž¥ë˜ì—ˆëŠ”ì§€ ì¶œë ¥
+		System.out.println("ë„˜ë²„ë§¥ìŠ¤"+num[max]);
 			   if(num[max]<num[i]){
 			    max=i;
 			    j=i+1;
 			   }   
 		}	  
 			  
-			  System.out.println("ÃÖ´ë°ª " + num[max] +"(Àº/´Â) " + j + "¹ø Â° ¼ýÀÚ´Ù.");
+			  System.out.println("ìµœëŒ€ê°’ " + num[max] +"(ì€/ëŠ”) " + j + "ë²ˆ ì§¸ ìˆ«ìžë‹¤.");
 	}
 
 }
