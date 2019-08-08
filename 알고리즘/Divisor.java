@@ -6,7 +6,7 @@ public class Divisor {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+		System.out.println("Â¼Ã½Ã€ÃšÂ¸Â¦ Ã€Ã”Â·Ã‚Ã‡Ã˜ÃÃ–Â¼Â¼Â¿Ã¤:");
 		
 		int b = scanner.nextInt();
 		int i;
