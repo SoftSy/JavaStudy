@@ -17,7 +17,7 @@ public class Shuffle {
 		}
 		
 		for(int i=0; i<numArr.length; i++) {
-			System.out.print(numArr[i]);
+			System.out.print(numArr[i]); //섞은거 출력
 		}
 		
 	}
