@@ -6,7 +6,7 @@ public class test01 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”:");
 		
 		int a = scanner.nextInt();
 		
@@ -21,10 +21,10 @@ public class test01 {
 			}
 		}
 		if(isPrime) {
-			System.out.println("¼Ò¼ö¾Æ´Ô");
+			System.out.println("ì†Œìˆ˜ì•„ë‹˜");
 		}
 		else {
-			System.out.println("¼Ò¼ö");
+			System.out.println("ì†Œìˆ˜");
 		}
 		
 	}
