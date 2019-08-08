@@ -1,7 +1,7 @@
 package practice;
 
 public class TextOrNumber {
- //¹®ÀÚ¿­ÀÎÁö ¼ıÀÚÀÎÁö ÆÇº°ÇÏ´Â ÇÁ·Î±×·¥
+ //ë¬¸ìì—´ì¸ì§€ ìˆ«ìì¸ì§€ íŒë³„í•˜ëŠ” í”„ë¡œê·¸ë¨
 	public static void main(String[] args) {
 		String value = "12o34";
 		char ch = ' ';
@@ -17,10 +17,10 @@ public class TextOrNumber {
 			
 		}
 		if(isNumber) {
-			System.out.println("¼ıÀÚ ÀÔ´Ï´Ù.");
+			System.out.println("ìˆ«ì ì…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("¼ıÀÚ°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("ìˆ«ìê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 
